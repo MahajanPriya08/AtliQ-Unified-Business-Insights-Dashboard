@@ -5,7 +5,7 @@ Engineered a scalable Business Intelligence solution that transitioned legacy Ex
 #### The Business Challenge
 In the original Excel environment, data was siloed and reporting was reactive. Key challenges included:
 
-Scalability Issues: Excel struggled to process "huge" volumes of transactional data (OLTP-style), leading to slow performance.
+**Scalability Issues**: Excel struggled to process "huge" volumes of transactional data (OLTP-style), leading to slow performance.
 
 Complex Deductions: Calculating post-invoice deductions and net sales involved manual, error-prone lookups.
 
