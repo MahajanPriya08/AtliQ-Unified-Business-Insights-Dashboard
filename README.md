@@ -27,8 +27,11 @@ I developed a robust analytical pipeline following the professional ETL (Extract
 Looking at your data for 2020, here are few insights:
 
 1. **Profitability Warning (Net Profit %)**
+   
 •	**Insight**: Despite a strong Net Sales of $136.04M, the Net Profit % is -0.94%, which is a massive 142.7% drop compared to the benchmark.
+
 •	**Business Impact**: This indicates that while the company is generating high revenue, the operational costs or deductions are far too high, leading to a net loss.
+
 •	**Actionable Recommendation**: Investigate the "Sub-Region Performance" table, specifically India, which has the highest sales ($33.9M) but a deep negative Net Profit of -14.7%.
 
 3. **Supply Chain Inefficiency (Forecast Accuracy)**
