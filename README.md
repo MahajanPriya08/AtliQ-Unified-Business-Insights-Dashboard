@@ -77,6 +77,13 @@ Looking at your data for 2020, here are few insights:
 
 **Power BI Service**: Leveraged for cloud-based distribution, configuring scheduled data refreshes to ensure real-time reporting.
 
+#### Data Validation & Reliability 
+
+•	**UAT (User Acceptance Testing)**: Conducted a rigorous first round of testing to identify and fix discrepancies before releasing the dashboard to stakeholders.
+•	**Manual Reconciliation**: Published reports to Power BI Service and utilized the "Analyze in Excel" feature to perform pivot table cross-checks against raw data to ensure 100% accuracy.
+•	**Performance Optimization**: Used DAX Studio to instrument measures and optimized the model by disabling the load for staging tables that were only used for merging.
+
+
 
 
 
