@@ -23,10 +23,10 @@ I developed a robust analytical pipeline following the professional ETL (Extract
 
 **Advanced Analytics (DAX)**: Leveraged DAX for sophisticated measures, including custom Fiscal Year logic and automated deduction calculations.
 
-#### Key Business Insights
+## Key Business Insights
 Looking at your data for 2020, here are few insights:
 
-1. ####Profitability Warning (Net Profit %)
+#### 1. Profitability Warning (Net Profit %)
    
 •	**Insight**: Despite a strong Net Sales of $136.04M, the Net Profit % is -0.94%, which is a massive 142.7% drop compared to the benchmark.
 
