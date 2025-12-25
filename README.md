@@ -1,7 +1,7 @@
 # AtliQ Unified Business Insights Dashboard
 Engineered a scalable Business Intelligence solution that transitioned legacy Excel reporting into an automated Power BI ecosystem, leveraging Star Schema modeling and advanced DAX to provide real-time visibility into net sales, fiscal performance, and profit margins across massive datasets.
 
-## ***Project Overview***
+## Project Overview
 ### ***The Business Challenge***
 In the original Excel environment, data was siloed and reporting was reactive. Key challenges included:
 
