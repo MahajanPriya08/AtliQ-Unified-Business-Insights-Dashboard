@@ -9,7 +9,7 @@ Engineered a scalable Business Intelligence solution that transitioned legacy Ex
 
 The backbone of this project is a high-performance Star Schema (with Snowflake extensions) designed to handle "huge" datasets while maintaining fast report interactivity. By transitioning from flat Excel files to a relational model, I ensured data integrity and optimized calculation speeds.
 
-####Core Modeling Strategy
+#### Core Modeling Strategy
 
 **Fact Tables**: Centralized transactional data including fact_actual_estimates and fact_forecast_monthly to track sales and predictions separately.
 
