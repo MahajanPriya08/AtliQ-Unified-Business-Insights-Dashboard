@@ -34,15 +34,20 @@ Looking at your data for 2020, here are few insights:
 
 •	**Actionable Recommendation**: Investigate the "Sub-Region Performance" table, specifically India, which has the highest sales ($33.9M) but a deep negative Net Profit of -14.7%.
 
-2. ####Supply Chain Inefficiency (Forecast Accuracy)
+#### 2. Supply Chain Inefficiency (Forecast Accuracy)
    
 •	**Insight**: Forecast Accuracy stands at 67.28%, which is 22.3% lower than last year.
+
 •	**Business Impact**: The "Sub-Region Performance" table shows many zones marked with EI (Excess Inventory) or OOS (Out of Stock).
+
 •	**Actionable Recommendation**: The high "Net Error %" in regions like NE (22.7%) and SE (24.9%) suggests a need for better demand planning to reduce storage costs of excess inventory.
 
-3. ####Revenue Concentration
+#### 3. Revenue Concentration
+
 •	**Insight**: The Top 5 Customers account for 54.4% of total Revenue Contribution (RC%).
+
 •	**Business Impact**: High dependency on a few clients (Amazon, Atliq e Store, etc.) poses a risk if any single partnership is terminated.
+
 •	**Observation**: Most top customers and products show a declining trend (red arrows) in Gross Margin %, suggesting pricing pressure or increased cost of goods sold.
 
 
