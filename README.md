@@ -4,7 +4,6 @@ Engineered a scalable Business Intelligence solution that transitioned legacy Ex
 ## Dashboard Preview 
 <img width="841" height="502" alt="image" src="https://github.com/user-attachments/assets/f03b6eed-7d5c-4a96-a337-7feb60f66b50" />
 
-
 ## Project Overview
 #### The Business Challenge
 In the original Excel environment, data was siloed and reporting was reactive. Key challenges included:
@@ -23,4 +22,11 @@ I developed a robust analytical pipeline following the professional ETL (Extract
 **Data Modeling (OLAP)**: Implemented a Star Schema to connect Fact (transactions) and Dimension (entities) tables for high-performance filtering.
 
 **Advanced Analytics (DAX)**: Leveraged DAX for sophisticated measures, including custom Fiscal Year logic and automated deduction calculations.
+
+#### Key Business Insights
+**Profitability Alert**: Despite Net Sales of $136.04M, the Net Profit % is -0.94%, a massive 142.7% drop compared to the benchmark.
+
+**Supply Chain Risk**: Forecast Accuracy stands at 67.28%, which is 22.3% lower than the previous year, resulting in excess inventory (EI) in specific sub-zones.
+
+**Revenue Concentration**: The top 5 customers account for 54.4% of total Revenue Contribution, indicating high dependency on key accounts.
 
