@@ -4,6 +4,21 @@ Engineered a scalable Business Intelligence solution that transitioned legacy Ex
 ## Dashboard Preview 
 <img width="841" height="502" alt="image" src="https://github.com/user-attachments/assets/f03b6eed-7d5c-4a96-a337-7feb60f66b50" />
 
+## Data Architecture & Modeling (Star Schema)
+<img width="720" height="450" alt="Project_Screenshot2_updated" src="https://github.com/user-attachments/assets/87d80eb8-162c-4575-93dc-3b5a82b0c8fc" />
+
+The backbone of this project is a high-performance Star Schema (with Snowflake extensions) designed to handle "huge" datasets while maintaining fast report interactivity. By transitioning from flat Excel files to a relational model, I ensured data integrity and optimized calculation speeds.
+
+####Core Modeling Strategy
+
+**Fact Tables**: Centralized transactional data including fact_actual_estimates and fact_forecast_monthly to track sales and predictions separately.
+
+**Dimension Tables**: Created entity-based tables for dim_customer, dim_product, dim_market, and dim_date to act as primary filters.
+
+**Snowflake Normalization**: Further refined the model by connecting dim_market to sub_zones and dim_product to category tables, reducing data redundancy and improving granularity.
+
+By implementing this architecture, I successfully mimicked an OLAP (Online Analytical Processing) system, allowing for seamless drill-down from global KPIs to specific sub-zone performance.
+
 ## Project Overview
 #### The Business Challenge
 In the original Excel environment, data was siloed and reporting was reactive. Key challenges included:
@@ -61,6 +76,10 @@ Looking at your data for 2020, here are few insights:
 **Excel**: Source data and UAT (User Acceptance Testing) via "Analyze in Excel".
 
 **Power BI Service**: Leveraged for cloud-based distribution, configuring scheduled data refreshes to ensure real-time reporting.
+
+
+
+
 
 
 
