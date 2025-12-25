@@ -7,16 +7,16 @@ In the original Excel environment, data was siloed and reporting was reactive. K
 
 **Scalability Issues**: Excel struggled to process "huge" volumes of transactional data (OLTP-style), leading to slow performance.
 
-Complex Deductions: Calculating post-invoice deductions and net sales involved manual, error-prone lookups.
+**Complex Deductions**: Calculating post-invoice deductions and net sales involved manual, error-prone lookups.
 
-Fiscal Misalignment: The business operated on a September-start Fiscal Year, requiring tedious manual adjustments to standard calendar exports.
+**Fiscal Misalignment**: The business operated on a September-start Fiscal Year, requiring tedious manual adjustments to standard calendar exports.
 
-💡 The Solution: An End-to-End BI Pipeline
+#### The Solution: An End-to-End BI Pipeline
 I developed a robust analytical pipeline following the professional ETL (Extract, Transform, Load) framework:
 
-Data Extraction & Cleaning: Used M-Language to build dynamic date tables and optimized the load by disabling staging tables to keep the model lean.
+**Data Extraction & Cleaning**: Used M-Language to build dynamic date tables and optimized the load by disabling staging tables to keep the model lean.
 
-Data Modeling (OLAP): Implemented a Star Schema to connect Fact (transactions) and Dimension (entities) tables for high-performance filtering.
+**Data Modeling (OLAP)**: Implemented a Star Schema to connect Fact (transactions) and Dimension (entities) tables for high-performance filtering.
 
-Advanced Analytics (DAX): Leveraged DAX for sophisticated measures, including custom Fiscal Year logic and automated deduction calculations.
+**Advanced Analytics (DAX)**: Leveraged DAX for sophisticated measures, including custom Fiscal Year logic and automated deduction calculations.
 
