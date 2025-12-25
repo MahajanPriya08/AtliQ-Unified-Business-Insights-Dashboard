@@ -1,4 +1,4 @@
-# AtliQ Unified Business Insights Dashboard
+*# AtliQ Unified Business Insights Dashboard
 Engineered a scalable Business Intelligence solution that transitioned legacy Excel reporting into an automated Power BI ecosystem, leveraging Star Schema modeling and advanced DAX to provide real-time visibility into net sales, fiscal performance, and profit margins across massive datasets.
 
 ## Dashboard Preview 
@@ -25,15 +25,18 @@ I developed a robust analytical pipeline following the professional ETL (Extract
 
 #### Key Business Insights
 Looking at your data for 2020, here are few insights:
-1. Profitability Warning (Net Profit %)
-•	Insight: Despite a strong Net Sales of $136.04M, the Net Profit % is -0.94%, which is a massive 142.7% drop compared to the benchmark.
-•	Business Impact: This indicates that while the company is generating high revenue, the operational costs or deductions are far too high, leading to a net loss.
-•	Actionable Recommendation: Investigate the "Sub-Region Performance" table, specifically India, which has the highest sales ($33.9M) but a deep negative Net Profit of -14.7%.
-2. Supply Chain Inefficiency (Forecast Accuracy)
+
+1. **Profitability Warning (Net Profit %)**
+•	**Insight**: Despite a strong Net Sales of $136.04M, the Net Profit % is -0.94%, which is a massive 142.7% drop compared to the benchmark.
+•	**Business Impact**: This indicates that while the company is generating high revenue, the operational costs or deductions are far too high, leading to a net loss.
+•	**Actionable Recommendation**: Investigate the "Sub-Region Performance" table, specifically India, which has the highest sales ($33.9M) but a deep negative Net Profit of -14.7%.
+
+3. **Supply Chain Inefficiency (Forecast Accuracy)**
 •	Insight: Forecast Accuracy stands at 67.28%, which is 22.3% lower than last year.
 •	Business Impact: The "Sub-Region Performance" table shows many zones marked with EI (Excess Inventory) or OOS (Out of Stock).
 •	Actionable Recommendation: The high "Net Error %" in regions like NE (22.7%) and SE (24.9%) suggests a need for better demand planning to reduce storage costs of excess inventory.
-3. Revenue Concentration
+
+5. Revenue Concentration
 •	Insight: The Top 5 Customers account for 54.4% of total Revenue Contribution (RC%).
 •	Business Impact: High dependency on a few clients (Amazon, Atliq e Store, etc.) poses a risk if any single partnership is terminated.
 •	Observation: Most top customers and products show a declining trend (red arrows) in Gross Margin %, suggesting pricing pressure or increased cost of goods sold.
