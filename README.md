@@ -50,4 +50,15 @@ Looking at your data for 2020, here are few insights:
 
 •	**Observation**: Most top customers and products show a declining trend (red arrows) in Gross Margin %, suggesting pricing pressure or increased cost of goods sold.
 
+####Technical Stack
+**Power BI Desktop**: Core development and visualization.
+
+**Power Query & M-Language**: Data transformation and custom fiscal calendar scripting.
+
+**DAX**: Advanced business logic and time intelligence (YTD, YTG, LE).
+
+**Excel**: Source data and UAT (User Acceptance Testing) via "Analyze in Excel".
+
+
+
 
